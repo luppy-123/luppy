@@ -1,0 +1,49 @@
+.heading{
+color: darkblue;
+background-color: lightblue;
+text-align: center;
+
+}
+
+.lorem{
+  color: red;
+  text-align: left;
+  line-height: 50px;
+  word-spacing: 20px;
+  /* white-space: nowrap; */
+}
+#link{
+  text-decoration: none;
+}
+
+#hello{
+  text-decoration: dashed;
+  color: red;
+}
+
+
+#hellom{
+  letter-spacing: 3px;
+}
+
+.font{
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.f1{
+  font-family: sans-serif;
+}
+
+.f2{
+  
+  font-variant: normal;
+  
+}
+
+.f3{
+  font-variant: small-caps;
+  /* font-variant: normal;  */
+}

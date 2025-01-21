@@ -1,0 +1,59 @@
+.box-1 {
+  height: 350px;
+
+  /* border: borderwidth  style color; */
+  /* border: 5px solid black;   mostly use this method */
+
+  /* can be right like border-left or border-right  */
+
+  /* border-width: top right bottom left; */
+  border-width: 10 20 30 40;
+  border-style: solid solid dotted solid;
+
+  /* border-width; top&bottom right&left  */
+  /* border-width: 20 30; */
+}
+
+.padone{
+  border: 2px solid black;
+  /* same with border  */
+  padding: 20px 30px;
+}
+
+.padtwo{
+  border: 2px solid black;
+  /* same with border  */
+  padding: 20px 30px;
+}
+
+.margin{
+  border: 1px solid black;
+  margin-right: auto;
+  width: 400px;
+ 
+}
+
+.bs1 {
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 200px;
+
+  /* x,y,blur,colo  */
+  box-shadow: 3px 3px 2px black;
+}
+
+.bs2{
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 200px;
+  box-shadow: -3px -3px 3px black;
+}
+
+.bs3 {
+  border: 2px solid black;
+  box-sizing: border-box;
+  width: 200px;
+
+  /* x,y,blur,colo  */
+  box-shadow: inset 3px 3px 2px black;
+}

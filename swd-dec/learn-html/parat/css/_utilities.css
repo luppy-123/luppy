@@ -1,0 +1,29 @@
+/* button  */
+.rrounded {
+  border-radius: 6px;
+}
+
+.rcircle {
+  border-radius: 9999px;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 529px;
+  height: 591px;
+  padding: 60px 40px;
+  margin: auto;
+}
+
+/* tabel  */
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}

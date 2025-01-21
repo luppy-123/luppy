@@ -1,0 +1,18 @@
+.heading-block{
+  background-color: lightblue;
+  display: block;
+  width: 500px;
+
+}
+
+.heading-inline{
+  background-color: aqua;
+  display: inline;
+  width: 500px;
+}
+
+.inline-block{
+  width: 500px;
+  background-color: blue;
+  display: inline-block;
+}

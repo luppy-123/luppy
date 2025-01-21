@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css);
+
+* {
+  font-size: 12px;
+
+  font-family: "Inter", serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: rgba(34, 140, 232, 1);
+  --pink: rgba(237, 74, 128, 1);
+  --white: white;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 529px;
+  height: 591px;
+  padding: 60px 40px;
+  margin: auto;
+}
+
+.css {
+  text-decoration: underline;
+  font-weight: 600px;
+  font-size: 40px;
+}
+
+.btn {
+  width: 89px;
+  height: 35px;
+  padding: 10px 20px;
+  margin-bottom: 32px;
+  margin-right: 8px;
+}
+
+.btnicon{
+  width: 48px;
+  height: 48px;
+  padding: 16px 0px;
+  margin-right: 5px;
+}
+
+.rrounded{
+  border-radius: 6px;
+}
+
+.rcircle{
+  border-radius: 9999px;
+}
+
+.bluebutt {
+  background-color: var(--blue);
+  border: none;
+  color: var(--white);
+}
+
+.pinkbutt {
+  background-color: var(--pink);
+  border: none;
+  color: var(--white);
+}
+
+.btn-blue-outline {
+  border: solid var(--blue) 1px;
+  background-color: transparent;
+  color: var(--blue);
+}
+
+.btn-pink-outline {
+  border: 1px var(--pink) solid;
+  background-color: transparent;
+  color: var(--pink);
+}
+
+.btn-blue-pill{
+ border:  var(--blue); 
+ border-radius: 8px;
+ background-color: var(--blue);
+ color: var(--white);
+}
+
+.btn-pink-pill{
+  border: none var(--pink);
+  border-radius: 99999px;
+  background-color: var(--pink);
+  color: var(--white);
+}
+
+.btn-blue-pill2 {
+  border: solid var(--blue) 1px;
+  background-color: transparent;
+  color: var(--blue);
+  
+  border-radius: 99999px;
+}
+
+.btn-pink-pill2 {
+  border: 1px var(--pink) solid;
+  background-color: transparent;
+  color: var(--pink);
+  border-radius: 1px;
+}
+
+.btn-blue-link{
+  background-color: transparent;
+  color:  var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.btn-pink-link{
+  background-color: var(--pink);
+  color: var(--white);
+  border: none ;
+}
+
+i{
+  font-size: large;
+}

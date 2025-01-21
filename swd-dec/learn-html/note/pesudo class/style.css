@@ -1,0 +1,17 @@
+.box {
+  border: 2px solid black;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  transition: 0.45s;
+}
+
+.box:hover {
+  background-color: rgb(78, 94, 94);
+  box-shadow: 3px 3px 3px rgb(86, 84, 84);
+}
+
+.box:active {
+  /* background-color: rgb(86, 84, 84); */
+  opacity: 0.7;
+}

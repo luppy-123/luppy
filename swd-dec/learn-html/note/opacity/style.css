@@ -1,0 +1,13 @@
+.v1{
+  font-size: bold;
+  border: 2px solid black;
+  visibility: hidden;
+}
+
+.overflow {
+  border: 2px solid black;
+  width: 500px;
+  height: 250px;
+  /* overflow: auto; */
+  overflow: scroll;
+}

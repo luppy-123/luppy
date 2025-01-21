@@ -1,0 +1,15 @@
+#b {
+  padding: 11px 20px;
+  border-radius: 4px;
+  border: solid;
+  color: black;
+  background-color: rgb(204, 201, 201);
+  border-color: rgb(156, 153, 153);
+}
+
+#box {
+  width: 350px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0px 12px;
+}
