@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>contact</title>
+  </head>
+  <body>
+    <section class="sticky top-0 bg-white">
+      <div class="flex justify-between custom-container items-center">
+        <a href="./index.html">
+          <img src="./images/Vector (1).png" alt="" />
+        </a>
+
+        <nav>
+          <!-- laptop version  -->
+          <ul class="flex gap-7 items-center max-md:hidden">
+            <li
+              class="hover:scale-105 hover:text-primary transition-all duration-75"
+            >
+              <a href="./index.html">Home</a>
+            </li>
+            <li
+              class="hover:scale-105 hover:text-primary transition-all duration-75"
+            >
+              <a href="./work.html">Work</a>
+            </li>
+            <li
+              class="hover:scale-105 hover:text-primary transition-all duration-75"
+            >
+              <a href="./about.html">About</a>
+            </li>
+            <li
+              class="hover:scale-105 hover:text-primary transition-all duration-75 text-2xl text-primary font-bold"
+            >
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <!-- mobile version  -->
+          <input
+            type="checkbox"
+            id="menu-toggle"
+            class="max-md:hidden peer hidden"
+          />
+          <label
+            for="menu-toggle"
+            class="max-md:flex hidden items-center cursor-pointer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-menu-icon lucide-menu"
+            >
+              <path d="M4 5h16" />
+              <path d="M4 12h16" />
+              <path d="M4 19h16" />
+            </svg>
+          </label>
+
+          <!-- mobile side bar -->
+          <div
+            class="max-md:flex hidden fixed left-0 inset-y-0 border bg-white w-[170px] p-6 shadow-lg transform -translate-x-full peer-checked:translate-x-0 transition-all duration-300 ease-in-out"
+          >
+            <ul class="flex flex-col gap-7">
+              <li
+                class="hover:scale-105 hover:text-primary transition-all duration-75"
+              >
+                <a href="./index.html">Home</a>
+              </li>
+              <li
+                class="hover:scale-105 hover:text-primary transition-all duration-75"
+              >
+                <a href="./work.html">Work</a>
+              </li>
+              <li
+                class="hover:scale-105 hover:text-primary transition-all duration-75"
+              >
+                <a href="./about.html">About</a>
+              </li>
+              <li
+                class="hover:scale-105 hover:text-primary transition-all duration-75 text-2xl text-primary font-bold"
+              >
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <header class="custom-container md:mt-20"></header>
+
+    <main class="custom-container">
+      <div class="md:flex md:justify-between gap-[70px]">
+        <div class="flex items-center justify-center  md:items-start ">
+        <p
+          class="w-[167px] h-[66px] text-[20px] font-semibold mt-5 mb-10 text-centert md:text-4xl md:w-[300px] md:h-[132px]"
+        >
+          Have a project or just want to chat? Reach out!
+        </p>
+      </div>
+
+      <div class="flex items-center mb-5 md:hidden">
+        <p class="border-t w-3 h-0.5 border-neutral-700 mr-3 md:hidden"></p>
+        <h1 class="text-[16px] font-medium text-neutral-700 md:hidden">
+          Contact me
+        </h1>
+      </div>
+
+      <div class="md:flex md:flex-col">
+          <p class="text-[16px] mb-5 mt-5">Send a message</p>
+          <input
+            type="text"
+            class="input-style w-[353px] md:w-[644px] h-10 mb-5"
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            class="input-style w-[353px] md:w-[644px] h-10 mb-5"
+            placeholder="Email"
+          />
+          <textarea
+            name="text"
+            class="input-style w-[353px] md:w-[644px] mb-5"
+            rows="5"
+            placeholder="message"
+            id=""
+          ></textarea>
+          <button
+            class="inline-btn max-md:w-[353px] max-md:h-10 max-md:text-[13.5px] w-[644px] h-12 flex justify-center items-center gap-3"
+          >
+            Send
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 15 15"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.20308 1.04312C1.00481 0.954998 0.772341 1.0048 0.627577 1.16641C0.482813 1.32802 0.458794 1.56455 0.568117 1.75196L3.92115 7.50002L0.568117 13.2481C0.458794 13.4355 0.482813 13.672 0.627577 13.8336C0.772341 13.9952 1.00481 14.045 1.20308 13.9569L14.7031 7.95693C14.8836 7.87668 15 7.69762 15 7.50002C15 7.30243 14.8836 7.12337 14.7031 7.04312L1.20308 1.04312ZM4.84553 7.10002L2.21234 2.586L13.2689 7.50002L2.21234 12.414L4.84552 7.90002H9C9.22092 7.90002 9.4 7.72094 9.4 7.50002C9.4 7.27911 9.22092 7.10002 9 7.10002H4.84553Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="custom-container grid grid-cols-1 gap-3">
+      <div class="md:flex md:items-center">
+        <div class="md:flex md:items-center gap-[731px]">
+          <div class="flex flex-col items-center align-center mb-10 gap-4">
+            <img
+              class="w-10 h-10 mb-10 mt-25 md:mt-0"
+              src="./images/Vector (1).png"
+              alt=""
+            />
+            <h1 class="text-neutral-500 text-[14px]">contact</h1>
+            <p class="text-[14px]">mms-it.com</p>
+            <p class="text-[14px]">+971 559011842</p>
+          </div>
+
+          <div class="flex flex-col items-center align-center mb-10 gap-4">
+            <h1 class="text-neutral-500 text-[14px]">Pages</h1>
+            <p class="text-[14px]">Home</p>
+            <p class="text-[14px]">Work</p>
+            <p class="text-[14px]">About</p>
+            <p class="text-[14px]">Contact</p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col items-center align-center mb-10 gap-4 md:ml-40"
+        >
+          <h1 class="text-neutral-500 text-[14px]">Social</h1>
+          <p class="text-[14px]">Instagram</p>
+          <p class="text-[14px]">Dribble</p>
+          <p class="text-[14px]">Behance</p>
+          <p class="text-[14px]">Linkedin</p>
+        </div>
+      </div>
+
+      <div>
+        <p class="text-neutral-500 flex items-center justify-center">
+          2025 MMS IT, All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

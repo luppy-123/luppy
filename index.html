@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <!-- body body body  -->
+  <body class="">
+    <div class="w-full mx-auto">
+      <section class="sticky top-0 bg-white z-50">
+        <div class="flex justify-between custom-container items-center">
+          <a href="./index.html">
+            <img src="./images/Vector (1).png" alt="" />
+          </a>
+
+          <nav>
+            <!-- laptop version  -->
+            <ul class="flex gap-7 items-center justify-center max-md:hidden">
+              <li
+                class="hover:scale-105 hover:text-primary transition-all duration-75 text-2xl text-primary font-bold"
+              >
+                <a href="./index.html">Home</a>
+              </li>
+              <li
+                class="hover:scale-105 hover:text-primary transition-all duration-75"
+              >
+                <a href="./work.html">Work</a>
+              </li>
+              <li
+                class="hover:scale-105 hover:text-primary transition-all duration-75"
+              >
+                <a href="./about.html">About</a>
+              </li>
+              <li
+                class="hover:scale-105 hover:text-primary transition-all duration-75"
+              >
+                <a href="./contact.html">Contact</a>
+              </li>
+            </ul>
+
+            <!-- mobile version  -->
+            <input
+              type="checkbox"
+              id="menu-toggle"
+              class="max-md:hidden peer hidden"
+            />
+            <label
+              for="menu-toggle"
+              class="max-md:flex max-md:border max-md:rounded-full max-md:w-8 max-md:h-8 max-md:justify-center max-md:items-center max-md:p-2 max-md:border-neutral-200 hidden items-center cursor-pointer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-menu-icon lucide-menu"
+              >
+                <path d="M4 5h16" />
+                <path d="M4 12h16" />
+                <path d="M4 19h16" />
+              </svg>
+            </label>
+
+            <!-- mobile side bar -->
+            <div
+              class="max-md:flex hidden fixed left-0 inset-y-0 border bg-white w-[170px] p-6 shadow-lg transform -translate-x-full peer-checked:translate-x-0 transition-all duration-300 ease-in-out"
+            >
+              <ul class="flex flex-col gap-7">
+                <li
+                  class="hover:scale-105 hover:text-primary transition-all duration-75 text-2xl text-primary font-bold"
+                >
+                  <a href="./index.html">Home</a>
+                </li>
+                <li
+                  class="hover:scale-105 hover:text-primary transition-all duration-75"
+                >
+                  <a href="./work.html">Work</a>
+                </li>
+                <li
+                  class="hover:scale-105 hover:text-primary transition-all duration-75"
+                >
+                  <a href="./about.html">About</a>
+                </li>
+                <li
+                  class="hover:scale-105 hover:text-primary transition-all duration-75"
+                >
+                  <a href="./contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <header class="">
+        <!-- second div -->
+        <div class="max-md:h-[258px] h-[452px] custom-container mt-20">
+          <img
+            src="./images/profile.jpg"
+            class="mt-20 rounded-full w-[140px] h-[140px] object-cover max-md:w-[70px] max-md:h-[70px] max-md:mt-0"
+            alt=""
+          />
+          <p
+            class="my-5 text-4xl max-w-[1025px] text-neutral-400 font-medium max-md:font-medium max-md:text-[18px] max-md:w-[354px]"
+          >
+            Hey there! I'm a product designer
+
+            <span class="text-primary"
+              >shaping ideas into sleek, functional designs</span
+            >
+            —working remotely from Bangkok and loving it. Let's build something
+            great!
+          </p>
+          <br class="hidden md:block" />
+          <button
+            class="btn border bg-primary text-white w-[142px] h-10 flex items-center justify-center md:w-[168px] md:h-12 text-[14px] hover:scale-105 active:scale-90 ease-in-out transition-all duration-200"
+          >
+            Get In Touch
+            <svg
+              class="flex ml-2 items-center"
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-circle-arrow-right-icon lucide-circle-arrow-right"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="m12 16 4-4-4-4" />
+              <path d="M8 12h8" />
+            </svg>
+          </button>
+        </div>
+         <hr
+          class="md:mt-10 border-t border-neutral-400 mx-auto md:w-[1120px] w-[353px] max-md:p-0 md:mb-20 mb-10"
+        />
+      </header>
+
+      <!-- main main main  -->
+      <main class="custom-container">
+        <!-- div1 -->
+        <div class="pb-10">
+          <div class="flex items-center">
+            <p class="rectangle-1 mr-4"></p>
+            <h1
+              class="max-md:font-medium max-md:text-[16px] text-[26px] font-medium text-neutral-700 select-none"
+            >
+              Selected Works
+            </h1>
+
+            <a
+              class="ml-auto max-md:font-medium max-md:text-[14px] max-md:w-[129px] max-md:h-10 outline-btn w-[153px] h-12 flex justify-center items-center"
+              href="./work.html"
+            >
+              View More
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-circle-arrow-right-icon lucide-circle-arrow-right"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="m12 16 4-4-4-4" />
+                <path d="M8 12h8" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- div2 -->
+        <div class="mt-10 grid grid-cols-3 gap-10 max-md:grid-cols-1">
+          <div>
+            <img
+              class="max-md:w-[353px] max-md:h-[420px] h-[370px] w-[300px] object-cover rounded-2xl"
+              src="./images/photo1.png"
+              alt=""
+            />
+
+            <h1 class="font-medium text-neutral-900 mt-3 mb-1">FreshCart UI</h1>
+
+            <p class="text-neutral-400">FreshCart (Grocery Delivery)</p>
+          </div>
+
+          <div>
+            <img
+              class="max-md:w-[353px] max-md:h-[420px] h-[370px] w-[300px] object-cover rounded-2xl"
+              src="./images/photo1.png"
+              alt=""
+            />
+
+            <h1 class="font-medium text-neutral-900 mt-3 mb-1">
+              FreshCart UI
+            </h1>
+
+            <p class="text-neutral-400">FreshCart (Grocery Delivery)</p>
+          </div>
+
+          <div>
+            <img
+              class="max-md:w-[353px] max-md:h-[420px] h-[370px] w-[300px] object-cover rounded-2xl"
+              src="./images/photo1.png"
+              alt=""
+            />
+
+            <h1 class="font-medium text-neutral-900 mt-3 mb-1">FreshCart UI</h1>
+
+            <p class="text-neutral-400">FreshCart (Grocery Delivery)</p>
+          </div>
+        </div>
+        <hr
+          class="md:mt-10 border-t border-neutral-400 max-md:mx-auto max-md:my-10 max-md:w-[353px] max-md:p-0"
+        />
+
+        <!-- div 3 -->
+        <div class="flex items-top max-md:mb-0 mb-5 md:mt-20">
+          <p class="md:mt-18 rectangle-1 max-md:mt-2 mr-3"></p>
+          <div class="md:flex md:justify-between w-full items-center">
+            <h1
+              class="max-md:text-[16px] font-medium text-2xl text-neutral-700 select-none"
+            >
+              Who am I?
+            </h1>
+
+            <p
+              class="max-md:text-[18px] max-md:font-normal max-md:w-[349px] max-md:h-[162px] w-[644px] h-36 text-neutral-500 text-2xl"
+            >
+              Hey, I'm a product designer based in Bangkok, working remotely.
+              <span
+                class="max-md:text-[18px] max-md:font-normal text-primary text-2xl"
+                >I craft intuitive, aesthetically pleasing products that blend
+                form and function.</span
+              >Always iterating, always creating—let's design something
+              impactful!
+            </p>
+          </div>
+        </div>
+
+        <!-- div4 -->
+        <div class="md:flex md:justify-end">
+          <a
+          href="./about.html"
+            class="outline-btn max-md:w-[203px] max-md:h-10 max-md:text-[13.5px] max-md:font-medium max-md:leading-5 w-[238px] h-12 flex justify-center items-center mr-[404px]"
+          >
+            Get to know me more
+            <svg
+              class="flex items-center justify-center ml-2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="17"
+              height="17"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-circle-arrow-right-icon lucide-circle-arrow-right"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="m12 16 4-4-4-4" />
+              <path d="M8 12h8" />
+            </svg>
+          </a
+          href="./about.html">
+        </div>
+
+        <hr
+          class="md:mt-20 py-20 px-20 border-t border-neutral-400 max-md:mx-auto max-md:my-10 max-md:w-[353px] max-md:p-0"
+        />
+
+        <!-- text section  -->
+
+        <section>
+          <div
+            class="max-md:grid max-md:grid-cols-1 flex justify-between items-start"
+          >
+            <div class="flex">
+              <p class="md:mt-4 rectangle-1 max-md:mt-2 mr-3"></p>
+              <h1
+                class="max-md:font-medium max-md:text-[16px] max-md:mb-5 text-2xl text-neutral-700 font-medium"
+              >
+                Contact Me
+              </h1>
+            </div>
+
+            <div class="max-w-[644px] w-full">
+              <h2
+                class="max-md:font-normal max-md:text-[16px] text-2xl text-neutral-700 mb-5"
+              >
+                send a message
+              </h2>
+              <form action="" class="flex flex-col gap-3">
+                <input
+                  class="max-md:h-10 max-md:py-2 max-md:px-3 input-style"
+                  type="text"
+                  placeholder="name"
+                />
+                <input
+                  class="max-md:h-10 max-md:py-2 max-md:px-3 input-style"
+                  type="email"
+                  placeholder="email"
+                />
+                <textarea
+                  class="max-md:h-30 max-md:py-2 max-md:px-3 input-style text-neutral-500"
+                  rows="5"
+                >
+message</textarea
+                >
+
+                <div class="flex justify-end my-20">
+                  <a href="./contact.html"
+                    class="inline-btn max-md:h-10 max-md:text-[13.5px] w-[644px] h-12 flex justify-center items-center gap-3"
+                  >
+                    Send
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.20308 1.04312C1.00481 0.954998 0.772341 1.0048 0.627577 1.16641C0.482813 1.32802 0.458794 1.56455 0.568117 1.75196L3.92115 7.50002L0.568117 13.2481C0.458794 13.4355 0.482813 13.672 0.627577 13.8336C0.772341 13.9952 1.00481 14.045 1.20308 13.9569L14.7031 7.95693C14.8836 7.87668 15 7.69762 15 7.50002C15 7.30243 14.8836 7.12337 14.7031 7.04312L1.20308 1.04312ZM4.84553 7.10002L2.21234 2.586L13.2689 7.50002L2.21234 12.414L4.84552 7.90002H9C9.22092 7.90002 9.4 7.72094 9.4 7.50002C9.4 7.27911 9.22092 7.10002 9 7.10002H4.84553Z"
+                        fill="currentColor"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a href="./contact.html">
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      
+
+      <!-- mine here  -->
+      <footer class="custom-container grid grid-cols-1 gap-3">
+        <div class="md:flex md:items-center">
+          <div class="md:flex md:items-center gap-[731px]">
+              <div class="flex flex-col items-center align-center mb-10 gap-4">
+          <img
+            class="w-10 h-10 mb-10 mt-25 md:mt-0"
+            src="./images/Vector (1).png"
+            alt=""
+          />
+          <h1 class="text-neutral-500 text-[14px]">contact</h1>
+          <p class="text-[14px]">mms-it.com</p>
+          <p class="text-[14px]">+971 559011842</p>
+        </div>
+       
+          <div class="flex  flex-col items-center align-center mb-10 gap-4">
+          <h1 class="text-neutral-500 text-[14px]">Pages</h1>
+          <p class="text-[14px]">Home</p>
+          <p class="text-[14px]">Work</p>
+          <p class="text-[14px]">About</p>
+          <p class="text-[14px]">Contact</p>
+        </div>
+          </div>
+
+        <div class="flex flex-col items-center align-center mb-10 gap-4 md:ml-40">
+          <h1 class="text-neutral-500 text-[14px]">Social</h1>
+          <p class="text-[14px]">Instagram</p>
+          <p class="text-[14px]">Dribble</p>
+          <p class="text-[14px]">Behance</p>
+          <p class="text-[14px]">Linkedin</p>
+        </div>
+              </div>
+
+        <div>
+          <p class="text-neutral-500 flex items-center justify-center">
+            2025 MMS IT, All Rights Reserved.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
