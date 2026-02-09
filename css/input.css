@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import "tailwindcss";
+@theme {
+  --color-primary: rgba(234, 101, 45, 1);
+  --font-sans: "DM Sans", sans-serif;
+}
+
+* {
+  @apply box-border;
+}
+
+.custom-container {
+  @apply max-w-[1120px] mx-5 md:mx-auto max-sm:w-[353px] ;
+}
+
+.btn {
+  @apply rounded-full;
+}
+
+.outline-btn {
+  @apply max-md:py-2 max-md:px-[18px] border rounded-full px-2 py-2 border-primary text-primary bg-white   ml-auto hover:scale-105 transition-all duration-300 font-medium hover:bg-primary hover:text-white active:scale-95;
+}
+
+.inline-btn {
+  @apply border rounded-md px-2 py-4 border-primary text-white bg-primary ml-auto active:scale-95 hover:scale-105 transition-all duration-300 font-medium;
+}
+
+.rectangle-1 {
+  @apply max-md:w-4 max-md:h-0.5 border-b border-solid bg-neutral-700  h-1;
+}
+
+.input-style {
+  @apply border-2 max-md:border-neutral-300 border-neutral-500 text-neutral-500 py-3.5 px-3;
+}
